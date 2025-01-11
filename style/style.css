@@ -296,6 +296,7 @@ body{
     gap: 26px;
     /* height: 280px; */
     margin-top: 23px;
+    border-radius:10px;
    
 }
 
@@ -536,5 +537,40 @@ body{
     letter-spacing: 0%;
     text-align: center;
     margin-top: 20px;
+}
+
+        /* section 6 start */
+.section6{
+    background-color: rgb(255, 255, 255);
+    margin-top: 56px;
+    text-align: center;
+    padding: 35px 113px;
+}
+
+.footer-tittle{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+    padding: 20px;
+    
+   
+
+}
+
+
+
+.soical-media{
+    margin-top: 45px;
+   
+}
+
+.soical-media img{
+    width: 20px;
+    margin-right: 16px;
 }
 
