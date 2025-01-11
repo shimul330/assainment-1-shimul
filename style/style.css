@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(245, 244, 244);
+}
 .section-head{
     max-width: 1200px;
     margin: 0 auto;
@@ -287,7 +290,7 @@
 .news-card{
     display: flex;
     padding: 35px;
-    background-color: rgb(243, 243, 243);
+    background-color: white;
     
 
     gap: 26px;
@@ -352,3 +355,186 @@
 .right-card{
     justify-content: space-between;
 }
+
+    /* Section4 donate today design */
+
+.section4{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 56px;
+    
+   
+}
+
+.donate-section .donate-tittle{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height:35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-section .donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .amount{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+   
+} */
+
+
+.amount .amount-btn{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 32px;
+    margin-right: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:10px;
+    margin-top: 23px;
+}
+
+.amount .colorchange-btn{
+    background-color: rgb(198, 228, 214);
+}
+
+.input-amount{
+    
+    margin-top: 30px;
+}
+
+#input{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 726px;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.amount-done-btn .amount-done{
+    margin: 30px;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+            /* Section5 Design Start */
+.section5{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(198, 228, 214);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.subscriber-newletter .subscriber-tittle{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.subscriber-newletter .subscriber-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subscriber{
+    padding: 56px 71px;
+}
+
+
+
+
+#subscriber-id{
+    width: 725px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+    outline: none;
+    margin-top: 20px;
+}
+
+.subscriber-btn{
+    padding: 12px 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    bottom: 20px;
+   
+    
+}
+
+.subscriber-para{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
