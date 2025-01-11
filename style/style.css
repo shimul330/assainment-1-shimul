@@ -1,0 +1,79 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 14px 113px;
+}
+
+.button{
+    padding: 5px 10px ;
+    background-color: white;
+    border: none;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav-tittle{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* hero png and tittle section */
+.section1{
+    margin: 14px 113px 56px 113px;
+}
+
+.box{
+    width: 908px;
+    height: 397px;
+    background-color: rgb(198, 228, 214);
+ 
+    
+    
+}
+
+.box-tittle .firt-tittle{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box-tittle .box-heading{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.conainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+
+}
+
+.conainer .box-img img{
+    width: 336.54px;
+    height: 233.59px;
+}
